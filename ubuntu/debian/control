@@ -11,11 +11,11 @@ Build-Depends: cmake,
                ruby-ronn,
                libprotoc-dev,
                libprotobuf-dev,
-               libgz-msgs10-dev,
-               libgz-cmake3-dev,
+               libgz-msgs11-dev,
+               libgz-cmake4-dev,
                libgz-tools2-dev,
-               libgz-utils2-cli-dev,
-               libgz-utils2-dev,
+               libgz-utils3-cli-dev,
+               libgz-utils3-dev,
                protobuf-compiler,
                python3,
                python3-dev,
@@ -35,11 +35,11 @@ Section: libdevel
 Depends: libgz-transport14 (= ${binary:Version}),
          uuid-dev,
          libzmq3-dev (>= 3.0.0),
-         libgz-msgs10-dev,
-         libgz-cmake3-dev,
+         libgz-msgs11-dev,
+         libgz-cmake4-dev,
          libgz-tools2-dev,
-         libgz-utils2-cli-dev,
-         libgz-utils2-dev,
+         libgz-utils3-cli-dev,
+         libgz-utils3-dev,
          ${shlibs:Depends},
          ${misc:Depends}
 Multi-Arch: same
@@ -97,7 +97,7 @@ Package: libgz-transport14-log-dev
 Architecture: any
 Section: libdevel
 Depends: libsqlite3-dev,
-         libgz-cmake3-dev,
+         libgz-cmake4-dev,
          libgz-transport14-core-dev (= ${binary:Version}),
          libgz-transport14-log (= ${binary:Version}),
          ${misc:Depends}
@@ -135,7 +135,7 @@ Description: Gazebo Transport Library - Log Shared library
 Package: libgz-transport14-parameters-dev
 Architecture: any
 Section: libdevel
-Depends: libgz-cmake3-dev,
+Depends: libgz-cmake4-dev,
          libgz-transport14-core-dev (= ${binary:Version}),
          libgz-transport14-parameters (= ${binary:Version}),
          ${misc:Depends}
@@ -216,7 +216,7 @@ Depends:
      libgz-transport14 (= ${binary:Version}),
      python3-distutils,
      python3-pybind11,
-     python3-gz-msgs10,
+     python3-gz-msgs11,
      ${shlibs:Depends},
      ${misc:Depends},
      ${python3:Depends}
