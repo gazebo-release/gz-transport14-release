@@ -1,3 +1,9 @@
+gz-transport14 (14.4.1-1~noble) noble; urgency=medium
+
+  * gz-transport14 14.4.1-1 release
+
+ -- Carlos Aguero <caguero@openrobotics.org>  Wed, 18 Nov 2026 20:00:44 +0100
+
 gz-transport14 (14.4.0-1~noble) noble; urgency=medium
 
   * gz-transport14 14.4.0-1 release
